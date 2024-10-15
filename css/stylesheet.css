@@ -14,6 +14,9 @@ body {
 .menubar {
     text-align: center;
     background-color: #dcd3d3;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .menubar ul {
