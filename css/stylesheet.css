@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 /*styling af min body */
+@media only screen and (max-width: 600px)  {
+body {
+    font-size: 14px;
+}
+}
 body {
     background-color: #dcd3d3;
     background-position: center;
@@ -14,9 +19,6 @@ body {
 .menubar {
     text-align: center;
     background-color: #dcd3d3;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 .menubar ul {
@@ -168,28 +170,6 @@ h2 {
     margin: 0;
 }
 
-.footer, .socials {
-    padding: 5px;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.socials a {
-    font-size: 19px;
-    color: inherit;
-    line-height: 38px;
-    display: inline-block;
-    border-radius: 50%;
-    margin: 0 20px;
-    opacity: 0.8;
-}
-
-.socials a:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
 .footer ul {
     margin-top: 0;
     padding: 0;
@@ -209,4 +189,13 @@ h2 {
 .footer ul li a:hover {
     opacity: 1;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;    
+    text-align: right;
+}
+
+
+
 
